@@ -1,7 +1,8 @@
-.login-page {
+.login-page { 
   width: 360px;
   padding: 8% 0 0;
-  margin: auto;
+  margin: 0 450px; 
+  /*auto -> 450px*/
 }
 .form {
   position: relative;
@@ -57,8 +58,15 @@
   position: relative;
   z-index: 1;
   max-width: 300px;
-  margin: 0 auto;
+  margin: 0 10px;/*auto > 10px*/
 }
+
+.seclogo {/**/
+  position: relative;
+  z-index: 1;
+  margin: 0 350px;
+}
+
 .container:before, .container:after {
   content: "";
   display: block;
